@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+  max-width: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  color: #4e75ff;
+}
+
+.task-js {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 24px;
+  font-style: none;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  margin: 48px;
+}
+
+/*=========== task-1 ===========*/
+.item {
+  width: 392px;
+  height: auto;
+  border-radius: 8px;
+  background-color: #f6f6fe;
+  padding: 16px;
+}
+
+#categories {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.item h2 {
+  color: #2e2f42;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.96px;
+  margin-bottom: 16px;
+}
+
+.item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.item ul li {
+  border-radius: 4px;
+  border: 1px solid #808080;
+  width: 360px;
+  height: 40px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  padding: 8px 16px;
+}
+/*=========== task-2 ===========*/
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-top: 24px;
+  margin-left: 16px;
+}
+
+img {
+  height: 300px;
+  width: 360px;
+}
+/*=========== task-3 ===========*/
+#name-input {
+  width: 360px;
+  height: 40px;
+  margin: 32px 24px 16px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding: 8px 16px;
+}
+#name-input::placeholder {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+h1 {
+  color: #2e2f42;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.33;
+  letter-spacing: 0.96px;
+  margin: 0 24px 16px;
+}
+/*=========== task-4 ===========*/
+.login-form {
+  display: block;
+  margin: 32px 0 0 24px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 360px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #808080;
+  padding-left: 16px;
+}
+
+button {
+  border-radius: 8px;
+  background: #4e75ff;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  width: 86px;
+  height: 40px;
+  border: none;
+  margin-top: 8px;
+}
+
+button:hover {
+  background: #6c8cff;
+}
+/*=========== task-5 ===========*/
+.change-color {
+  width: 148px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  margin: 16px 10px;
+}
+
+.widget {
+  margin: 40px;
+}
+/*=========== task-6 ===========*/
+#controls {
+  border-radius: 8px;
+  background: #f6f6fe;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 486px;
+  height: 104px;
+  margin: 36px 0 16px 24px;
+}
+
+#controls input {
+  height: 40px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid #808080;
+}
+
+[data-create] {
+  width: 120px;
+  height: 40px;
+  margin-top: 0;
+}
+
+[data-destroy] {
+  width: 120px;
+  height: 40px;
+  background: #ff4e4e;
+  margin-top: 0;
+}
+
+#boxes {
+  background: #f6f6fe;
+  max-width: 1000px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  padding: 16px;
+}
