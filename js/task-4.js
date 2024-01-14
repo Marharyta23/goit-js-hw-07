@@ -17,7 +17,6 @@ function onFormSubmit(event) {
     alert("All form fields must be filled in");
   } else {
     console.log(dataObj);
+    form.reset();
   }
-
-  form.reset();
 }

@@ -12,13 +12,17 @@ const boxElem = document.querySelector("#boxes");
 createBtn.addEventListener("click", onCreateBtnClick);
 destroyBtn.addEventListener("click", onDestroyBtnClick);
 
-let width = 30;
-let height = 30;
-
-let arr = [];
+const beginningWidth = 30;
+const beginningHeight = 30;
 
 function onCreateBtnClick() {
-  const number = inputNumber.value;
+  onDestroyBtnClick();
+
+  let width = beginningWidth;
+  let height = beginningHeight;
+  let arr = [];
+  const number = +inputNumber.value;
+
   if (number >= 1 && number <= 100) {
     for (let i = 1; i <= number; i++) {
       arr.push(
