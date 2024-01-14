@@ -29,15 +29,11 @@ function onCreateBtnClick() {
     }
   }
 
-  console.log(...arr);
   boxElem.insertAdjacentHTML("afterbegin", arr.join(""));
-
-  inputNumber.reset();
 }
 
 function onDestroyBtnClick() {
   while (boxElem.firstChild) {
     boxElem.removeChild(boxElem.firstChild);
   }
-  inputNumber.reset();
 }

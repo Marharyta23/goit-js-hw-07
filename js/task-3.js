@@ -12,6 +12,4 @@ function onInputBlur(event) {
   } else {
     greeting.textContent = name;
   }
-
-  input.reset();
 }
